@@ -1,0 +1,9 @@
+create table clientes(
+id integer not null,
+nome varchar(80) not null,
+tpDocto varchar(1),
+docto varchar(15),
+telefone varchar(10),
+
+constraint "PK_CLIENTES" primary key (id)
+);
